@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: LaTex IF(algorithm)
+# type: snippet
+# key: \if
+# --
+\If{${1:CONDITION}}
+$0
+\EndIf

@@ -1,0 +1,10 @@
+
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: Org Definition
+# type: snippet
+# key: def
+# --
+#+begin_definition
+$0
+#+end_definition

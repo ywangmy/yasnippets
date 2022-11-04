@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: HTML details tag
+# type: snippet
+# key: hdt
+# --
+<details><summary>${1:expand}</summary><p>
+$0
+</p></details>

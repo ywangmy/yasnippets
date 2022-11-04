@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Latex Theorem
+# type: snippet
+# key: thm
+# --
+\begin{theorem}
+  $0
+\end{theorem}

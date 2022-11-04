@@ -1,0 +1,55 @@
+# -*- mode: snippet;-*-
+# contributor: ywangmy
+# name: C++ Preamble
+# type: snippet
+# key: pre
+# --
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <queue>
+
+using namespace std;
+
+typedef long long LL;
+typedef const int & CIA;
+typedef pair<int, int> PII;
+typedef pair<LL, int> PLI;
+
+template <typename T>
+inline T in()
+{
+    T x = 0, flag = 1; char ch = getchar();
+    while (!isdigit(ch)) { if (ch == '-') flag = -1; ch = getchar(); }
+    while (isdigit(ch)) { x = (x << 3) + (x << 1) + (ch - 48); ch = getchar(); }
+    return x * flag;
+}
+
+// const int MAXN = , MAXM = ;
+// const LL MOD = 1e9 + 7, INV2 = 500000004;
+
+/* Global Var */
+
+// int n, m;
+
+/* Algorithm Body */
+
+
+int main()
+{
+    $0
+    return 0;
+}
+
+/* Test Data */
+/*
+Input:
+
+Output:
+
+*/

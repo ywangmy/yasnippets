@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Latex Proposition
+# type: snippet
+# key: prop
+# --
+\begin{proposition}
+  $0
+\end{proposition}

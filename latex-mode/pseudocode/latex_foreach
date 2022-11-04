@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: LaTex For each(algorithm)
+# type: snippet
+# key: \fore
+# --
+\ForEach{$1}
+$0
+\EndFor

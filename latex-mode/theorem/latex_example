@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Latex Example
+# type: snippet
+# key: eg
+# --
+\begin{example}
+  $0
+\end{example}

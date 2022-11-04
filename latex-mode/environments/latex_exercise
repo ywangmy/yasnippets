@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Latex Exercise
+# type: snippet
+# key: ex
+# --
+\begin{exercise}
+$0
+\end{exercise}

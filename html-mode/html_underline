@@ -1,0 +1,7 @@
+# -*- mode: snippet;-*-
+# contributor: ywangmy
+# name: HTML Underline
+# type: snippet
+# key: uu
+# --
+<u>${1:Text}</u>$0

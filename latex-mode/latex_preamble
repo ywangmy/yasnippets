@@ -1,0 +1,76 @@
+# -*- mode: snippet -*-
+# name: LaTex preamble
+# type: snippet
+# key: preamble
+# --
+\documentclass{article}
+%% FONT %%
+\usepackage[mono=false]{libertine}
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+%% LAYOUT %%
+\usepackage[a4paper, marginparwidth=4cm, left=6cm, right=2cm, top=2cm, bottom=3cm]{geometry}
+\usepackage{marginnote}
+\reversemarginpar
+\usepackage{indentfirst}
+\setlength{\parskip}{0.4em}
+\usepackage{enumitem}
+\setlist{nosep} % no space in itemize
+\usepackage{multicol}
+\usepackage{multirow}
+%% MATH BASIC %%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm} % after amsmath
+\usepackage{mathtools}
+\theoremstyle{plain}% default
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{method}{Method}[section]
+\newtheorem{example}{Example}[section]
+\theoremstyle{remark}
+\newtheorem{derivation}{Derivation}[section]
+\usepackage{mdframed} % after amsthm
+\newmdenv[frametitle=Exercise]{exercise}
+%% MATH FONT %%
+\usepackage[libertine]{newtxmath} % after amssymb, amsthm
+%% APPEARANCE %%
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+%% MATH EXTRA %%
+\usepackage{esvect}
+\usepackage{ulem}
+%
+\usepackage{siunitx}
+\usepackage{graphicx}
+\graphicspath{ {./img/} }
+%% FILE SPECIFIED%%
+%\usepackage{inconsolata}
+%\usepackage{courier
+
+\usepackage{listings}
+\lstset { %
+  language=[11]C++,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\ttfamily\bfseries\color{NavyBlue}\underbar,
+  commentstyle=\itshape\color{Green},
+  frame=single,
+  breaklines=true,
+  linewidth=0.9\linewidth,
+  %backgroundcolor=\color{black!5}, % set backgroundcolor
+}
+%
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\algnewcommand\algorithmicforeach{\textbf{for each}}
+\algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
+%% END OF PREAMBLE%%
+
+\newcommand{\colorboxd}[2]{\colorbox{#1}{$\displaystyle #2$}}
+
+$0

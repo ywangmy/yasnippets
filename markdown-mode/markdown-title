@@ -1,0 +1,13 @@
+# -*- mode: snippet;-*-
+# name: Markdown Title and Metadata (YAML)
+# type: snippet
+# key: title
+# --
+---
+title:    ${1:Title}
+date:     ${2:YYYY-MM-DD}
+---
+
+# $1
+
+$0

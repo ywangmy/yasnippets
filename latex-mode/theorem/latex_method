@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Latex Method
+# type: snippet
+# key: mtd
+# --
+\begin{method}[$1]
+  $0
+\end{method}

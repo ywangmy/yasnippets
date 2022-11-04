@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: HTML Division
+# type: snippet
+# key: div
+# --
+<div>
+$0
+</div>

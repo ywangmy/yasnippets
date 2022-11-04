@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: LaTex lstinputlisting
+# type: snippet
+# key: lsts
+# --
+\begin{lstinputlisting}
+$0
+\end{lstinputlisting}

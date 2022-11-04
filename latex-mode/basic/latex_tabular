@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: LaTex Table
+# type: snippet
+# key: tab
+# --
+\begin{center}
+  \begin{tabular}{ |c|c|c| }
+    \hline
+    $0\\\\ \hline
+  \end{tabular}
+\end{center}

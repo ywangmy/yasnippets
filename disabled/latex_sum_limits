@@ -1,0 +1,7 @@
+# -*- mode: snippet;-*-
+# contributor: ywangmy
+# name: LaTex Sum Limits
+# type: snippet
+# key: suml
+# --
+\sum\limits_{${1:k=1}}^{${n}} $0

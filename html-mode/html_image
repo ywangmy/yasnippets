@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: HTML Image
+# type: snippet
+# key: img
+# --
+<img src="${1:path_to_src}" alt="${2:Decription}"> $0

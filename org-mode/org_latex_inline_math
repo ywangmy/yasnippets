@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: Org LaTex inline math
+# type: snippet
+# key: im
+# --
+\\($0\\)

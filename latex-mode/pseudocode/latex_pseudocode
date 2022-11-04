@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: LaTex Pseudocode
+# type: snippet
+# key: pse
+# --
+\begin{algorithm}[H]
+\caption{${1:CAPTION}}
+\begin{algorithmic}
+$0
+\end{algorithmic}
+\end{algorithm}

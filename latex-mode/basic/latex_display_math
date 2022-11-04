@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: LaTex Display Math Mode
+# type: snippet
+# key: dm
+# --
+\\[
+$0
+\\]

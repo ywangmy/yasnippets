@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: LaTex tan
+# type: snippet
+# key: tan
+# --
+\\tan

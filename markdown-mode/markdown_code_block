@@ -1,0 +1,9 @@
+# -*- mode: snippet;-*-
+# contributor: ywangmy
+# name: Markdown Code Block
+# type: snippet
+# key: mcb
+# --
+\`\`\`${1:cpp}
+$0
+\`\`\`

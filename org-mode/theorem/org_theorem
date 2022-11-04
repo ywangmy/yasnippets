@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: Org Theorem
+# type: snippet
+# key: thm
+# --
+#+begin_theorem
+$0
+#+end_theorem

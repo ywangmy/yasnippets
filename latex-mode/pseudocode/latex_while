@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: LaTex WHILE(algorithm)
+# type: snippet
+# key: \while
+# --
+\While{${1:CONDITION}}
+$0
+\EndWhile

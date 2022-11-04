@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: Org HTML details tag
+# type: snippet
+# key: hdt
+# --
+#+BEGIN_EXPORT html
+<details><summary>${1:expand}</summary><p>
+$0
+</p></details>
+#+END_EXPORT

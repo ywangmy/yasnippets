@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: Org Pseudocode
+# type: snippet
+# key: pse
+# --
+#+BEGIN_algorithm
+\caption{$1}
+\begin{algorithmic}
+$0
+\end{algorithmic}
+#+END_algorithm

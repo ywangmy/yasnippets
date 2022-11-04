@@ -1,0 +1,7 @@
+# -*- mode: snippet;-*-
+# contributor: ywangmy
+# name: C++ make_pair
+# type: snippet
+# key: mkpr
+# --
+make_pair($0)

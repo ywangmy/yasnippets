@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: Org Code Inline
+# type: snippet
+# key: ci
+# --
+~$0~

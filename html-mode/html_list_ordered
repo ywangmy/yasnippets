@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: HTML List Unordered
+# type: snippet
+# key: hol
+# --
+<ol>
+  <li>$0</li>
+</ol>

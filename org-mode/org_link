@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: Org Link
+# type: snippet
+# key: link
+# --
+[[${1:link}][${2:description}]]

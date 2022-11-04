@@ -1,0 +1,7 @@
+# -*- mode: snippet;-*-
+# contributor: ywangmy
+# name: C++ in<int>()
+# type: snippet
+# key: in
+# --
+in<${1:int}>()$0

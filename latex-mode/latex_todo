@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: LaTex TODO
+# type: snippet
+# key: todo
+# --
+\colorbox{Red}{\textcolor{Yellow}{\textbf{\large TODO}}}

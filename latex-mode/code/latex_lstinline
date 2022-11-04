@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: LaTex lstinline
+# type: snippet
+# key: lsti
+# --
+\lstinline{$0}

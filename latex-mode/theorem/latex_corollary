@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Latex Corollary
+# type: snippet
+# key: cor
+# --
+\begin{corollary}
+  $0
+\end{corollary}

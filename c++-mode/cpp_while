@@ -1,0 +1,10 @@
+# -*- mode: snippet;-*-
+# contributor: ywangmy
+# name: C++ while
+# type: snippet
+# key: while
+# --
+while (${1:true})
+{
+    $0
+}

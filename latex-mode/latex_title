@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: LaTex title
+# type: snippet
+# key: title
+# --
+\title{${1:TITLE}}
+\author{$2}
+\date{${3:DATE}}
+\hypersetup{
+  pdftitle={$1},
+}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+$0
+
+\end{document}

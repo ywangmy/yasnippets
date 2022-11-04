@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: LaTex STATE(algorithm)
+# type: snippet
+# key: \st
+# --
+\State 

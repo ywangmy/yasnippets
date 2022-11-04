@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Org H6
+# type: snippet
+# key: h6
+# --
+****** $0

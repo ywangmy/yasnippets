@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: Org Proof
+# type: snippet
+# key: pf
+# --
+#+begin_proof
+$0
+#+end_proof

@@ -1,0 +1,7 @@
+# -*- mode: snippet;-*-
+# contributor: ywangmy
+# name: C++ sort
+# type: snippet
+# key: sort
+# --
+sort(${1:a + 1}, ${2:a + n + 1}$0);

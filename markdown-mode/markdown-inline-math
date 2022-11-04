@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Markdown Inline Math Mode
+# type: snippet
+# key: im
+# --
+$$0$

@@ -1,0 +1,7 @@
+# -*- mode: snippet;-*-
+# contributor: ywangmy
+# name: C++ vector push_back
+# type: snippet
+# key: pb
+# --
+push_back($0)

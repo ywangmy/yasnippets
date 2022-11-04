@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: ywangmy
+# name: LaTex cos
+# type: snippet
+# key: cos
+# --
+\\cos
