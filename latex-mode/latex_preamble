@@ -9,7 +9,7 @@
 \usepackage{courier}
 \usepackage[T1]{fontenc}
 %% LAYOUT %%
-\usepackage[a4paper, marginparwidth=4cm, left=6cm, right=2cm, top=2cm, bottom=3cm]{geometry}
+\usepackage[a4paper, marginparwidth=4cm, left=6cm, right=2cm, top=2cm, bottom=2cm, includefoot, includehead]{geometry}
 \usepackage{marginnote}
 \reversemarginpar
 \usepackage{indentfirst}
@@ -30,6 +30,7 @@
 \newtheorem{lemma}{Lemma}[section]
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
+\newtheorem*{definition*}{Definition}
 \newtheorem{method}{Method}[section]
 \newtheorem{example}{Example}[section]
 \theoremstyle{remark}
@@ -69,8 +70,7 @@
 \usepackage[noend]{algpseudocode}
 \algnewcommand\algorithmicforeach{\textbf{for each}}
 \algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
-%% END OF PREAMBLE%%
 
 \newcommand{\colorboxd}[2]{\colorbox{#1}{$\displaystyle #2$}}
-
+%% END OF PREAMBLE%%
 $0
