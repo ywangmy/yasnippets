@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX dots
+# type: snippet
+# key: ...
+# condition: (and (texmathp) 'auto)
+# --
+\\dots $0

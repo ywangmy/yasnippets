@@ -1,7 +1,0 @@
-# -*- mode: snippet;-*-
-# contributor: ywangmy
-# name: LaTex Natural Number
-# type: snippet
-# key: \N
-# --
-\mathbb{N}$0

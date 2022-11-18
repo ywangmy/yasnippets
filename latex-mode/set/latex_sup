@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX sup
+# type: snippet
+# key: inf
+# condition: (and (texmathp) 'auto)
+# --
+\\sup$0

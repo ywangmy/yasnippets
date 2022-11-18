@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX setminus
+# type: snippet
+# key: s\\
+# condition: (and (texmathp) 'auto)
+# --
+\\setminus $0

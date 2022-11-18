@@ -1,7 +1,0 @@
-# -*- mode: snippet;-*-
-# contributor: ywangmy
-# name: LaTex Rational Number
-# type: snippet
-# key: \Q
-# --
-\mathbb{Q}$0

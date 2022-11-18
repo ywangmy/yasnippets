@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX cube
+# type: snippet
+# key: cb
+# condition: (and (texmathp) 'auto)
+# --
+^3$0

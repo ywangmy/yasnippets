@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX pm
+# type: snippet
+# key: +-
+# condition: (and (texmathp) 'auto)
+# --
+\\pm $0

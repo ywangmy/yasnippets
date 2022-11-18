@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTex tan
+# type: snippet
+# key: tan
+# condition: (and (texmathp) 'auto)
+# --
+\\tan $0

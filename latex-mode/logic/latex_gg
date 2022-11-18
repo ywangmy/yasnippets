@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX gg
+# type: snippet
+# key: >>
+# condition: (and (texmathp) 'auto)
+# --
+\\gg $0

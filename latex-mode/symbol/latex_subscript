@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX subscript
+# type: snippet
+# key: sb
+# condition: (and (texmathp) 'auto)
+# --
+_{$0}

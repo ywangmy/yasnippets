@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTex arccsc
+# type: snippet
+# key: arccsc
+# condition: (and (texmathp) 'auto)
+# --
+\\arccsc $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTex sec
+# type: snippet
+# key: sec
+# condition: (and (texmathp) 'auto)
+# --
+\\sec $0

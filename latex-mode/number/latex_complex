@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX Complex
+# type: snippet
+# key: CC
+# condition: (and (texmathp) 'auto)
+# --
+\\mathbb{C} $0

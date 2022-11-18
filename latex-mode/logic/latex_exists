@@ -1,0 +1,7 @@
+# -*- mode: snippet;-*-
+# name: LaTeX Exists
+# type: snippet
+# key: EE
+# condition: (and (texmathp) 'auto)
+# --
+\\exists $0

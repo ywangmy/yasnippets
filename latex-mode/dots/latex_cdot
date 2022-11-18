@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX cdot
+# type: snippet
+# key: .*
+# condition: (and (texmathp) 'auto)
+# --
+\\cdot $0

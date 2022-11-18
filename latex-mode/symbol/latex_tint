@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX tint
+# type: snippet
+# key: tint
+# condition: (and (texmathp) 'auto)
+# --
+\\iiint_{${1:D}} $0

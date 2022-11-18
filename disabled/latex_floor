@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: ywangmy
-# name: LaTex floor
-# type: snippet
-# key: floor
-# --
-\\lfloor $0 \\rfloor

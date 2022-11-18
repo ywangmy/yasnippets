@@ -1,7 +1,0 @@
-# -*- mode: snippet;-*-
-# contributor: ywangmy
-# name: LaTex Real Number
-# type: snippet
-# key: \R
-# --
-\mathbb{R}$0

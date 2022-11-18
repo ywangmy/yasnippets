@@ -1,7 +1,0 @@
-# -*- mode: snippet;-*-
-# contributor: ywangmy
-# name: LaTex Exists (disabled)
-# type: snippet
-# key: 
-# --
-\exists $0

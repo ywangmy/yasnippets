@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX to
+# type: snippet
+# key: ->
+# condition: (and (texmathp) 'auto)
+# --
+\\to $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX ddots
+# type: snippet
+# key: ..d
+# condition: (and (texmathp) 'auto)
+# --
+\\ddots $0

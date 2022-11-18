@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: ywangmy
-# name: LaTex sin
-# type: snippet
-# key: sin
-# --
-\\sin

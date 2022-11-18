@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX iint
+# type: snippet
+# key: iint
+# condition: (and (texmathp) 'auto)
+# --
+\\iint_{${1:R}} $0

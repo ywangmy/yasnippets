@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX Natural
+# type: snippet
+# key: NN
+# condition: (and (texmathp) 'auto)
+# --
+\\mathbb{N} $0

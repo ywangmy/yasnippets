@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX implies
+# type: snippet
+# key: =>
+# condition: (and (texmathp) 'auto)
+# --
+\\implies $0

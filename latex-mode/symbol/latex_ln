@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX ln
+# type: snippet
+# key: ln
+# condition: (and (texmathp) 'auto)
+# --
+\\ln $0

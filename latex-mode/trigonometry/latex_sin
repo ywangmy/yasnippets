@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTex sin
+# type: snippet
+# key: sin
+# condition: (and (texmathp) 'auto)
+# --
+\\sin $0

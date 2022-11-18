@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX inf
+# type: snippet
+# key: inf
+# condition: (and (texmathp) 'auto)
+# --
+\\inf$0

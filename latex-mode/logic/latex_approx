@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX approx
+# type: snippet
+# key: ~=
+# condition: (and (texmathp) 'auto)
+# --
+\\approx $0

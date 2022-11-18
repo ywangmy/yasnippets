@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTex cot
+# type: snippet
+# key: cot
+# condition: (and (texmathp) 'auto)
+# --
+\\cot $0

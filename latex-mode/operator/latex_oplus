@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX oplus
+# type: snippet
+# key: o+
+# condition: (and (texmathp) 'auto)
+# --
+\\oplus $0

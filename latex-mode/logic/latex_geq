@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX geq
+# type: snippet
+# key: >=
+# condition: (and (texmathp) 'auto)
+# --
+\\geq $0

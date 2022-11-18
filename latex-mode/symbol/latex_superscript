@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX superscript
+# type: snippet
+# key: sp
+# condition: (and (texmathp) 'auto)
+# --p
+^{$0}

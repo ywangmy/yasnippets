@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX Integer
+# type: snippet
+# key: ZZ
+# condition: (and (texmathp) 'auto)
+# --
+\\mathbb{Z} $0

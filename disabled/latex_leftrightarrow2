@@ -1,7 +1,0 @@
-# -*- mode: snippet;-*-
-# contributor: ywangmy
-# name: LaTex Leftrightarrow <=>
-# type: snippet
-# key: <=>
-# --
-\Leftrightarrow $0

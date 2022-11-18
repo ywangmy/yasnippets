@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX neq
+# type: snippet
+# key: !=
+# condition: (and (texmathp) 'auto)
+# --
+\\neq $0

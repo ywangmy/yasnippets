@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX gets
+# type: snippet
+# key: <-
+# condition: (and (texmathp) 'auto)
+# --
+\\gets $0

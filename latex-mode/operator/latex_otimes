@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX otimes
+# type: snippet
+# key: o*
+# condition: (and (texmathp) 'auto)
+# --
+\\otimes $0

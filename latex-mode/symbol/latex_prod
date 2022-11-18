@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX prod
+# type: snippet
+# key: prod
+# condition: (and (texmathp) 'auto)
+# --
+\\prod_{${1:k=1}}^{${n}} $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX circ
+# type: snippet
+# key: cc
+# condition: (and (texmathp) 'auto)
+# --
+\\circ $0

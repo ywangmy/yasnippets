@@ -1,7 +1,0 @@
-# -*- mode: snippet;-*-
-# contributor: ywangmy
-# name: LaTex Production
-# type: snippet
-# key: prod
-# --
-\prod_{${1:k=1}}^{${n}} $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX vdots
+# type: snippet
+# key: ..v
+# condition: (and (texmathp) 'auto)
+# --
+\\vdots $0

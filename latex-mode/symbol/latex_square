@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX square
+# type: snippet
+# key: sr
+# condition: (and (texmathp) 'auto)
+# --
+^2$0

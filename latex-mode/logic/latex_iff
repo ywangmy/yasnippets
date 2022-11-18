@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX iff
+# type: snippet
+# key: iff
+# condition: (and (texmathp) 'auto)
+# --
+\\iff $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX Transpose
+# type: snippet
+# key: TT
+# condition: (and (texmathp) 'auto)
+# --
+^{\\intercal}$0

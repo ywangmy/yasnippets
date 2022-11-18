@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX sum
+# type: snippet
+# key: sum
+# condition: (and (texmathp) 'auto)
+# --
+\\sum_{${1:k=1}}^{${n}} $0

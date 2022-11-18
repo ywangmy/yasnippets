@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTex arcsin
+# type: snippet
+# key: arcsin
+# condition: (and (texmathp) 'auto)
+# --
+\\arcsin $0

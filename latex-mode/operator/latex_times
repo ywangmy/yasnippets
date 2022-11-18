@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX times
+# type: snippet
+# key: x*
+# condition: (and (texmathp) 'auto)
+# --
+\\times $0

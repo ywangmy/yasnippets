@@ -1,7 +1,0 @@
-# -*- mode: snippet;-*-
-# contributor: ywangmy
-# name: LaTex Integers Number
-# type: snippet
-# key: \Z
-# --
-\mathbb{Z}$0

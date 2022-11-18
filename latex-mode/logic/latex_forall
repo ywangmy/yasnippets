@@ -1,0 +1,7 @@
+# -*- mode: snippet;-*-
+# name: LaTeX forall
+# type: snippet
+# key: AA
+# condition: (and (texmathp) 'auto)
+# --
+\\forall $0

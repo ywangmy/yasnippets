@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX dint
+# type: snippet
+# key: dint
+# condition: (and (texmathp) 'auto)
+# --
+\\int_{${1:a}}^{${2:b}} $0

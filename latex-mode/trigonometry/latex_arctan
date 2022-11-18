@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTex arctan
+# type: snippet
+# key: arctan
+# condition: (and (texmathp) 'auto)
+# --
+\\arctan $0

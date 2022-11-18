@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX log
+# type: snippet
+# key: log
+# condition: (and (texmathp) 'auto)
+# --
+\\log $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTex csc
+# type: snippet
+# key: csc
+# condition: (and (texmathp) 'auto)
+# --
+\\csc $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTex cos
+# type: snippet
+# key: cos
+# condition: (and (texmathp) 'auto)
+# --
+\\cos $0

@@ -1,8 +1,0 @@
-# -*- mode: snippet;-*-
-# contributor: ywangmy
-# name: LaTex Forall (disabled)
-# type: snippet
-# key: 
-# condition: 
-# --
-\forall $0
