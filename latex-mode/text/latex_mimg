@@ -1,11 +1,10 @@
 # -*- mode: snippet -*-
-# name: LaTeX img
+# name: LaTeX Marginnote img
 # type: snippet
-# key: img
+# key: mimg
 # --
-\begin{figure}[H]
-  \centering
+\marginnote{
   \includegraphics[draft=false, width=\textwidth, height=4cm, keepaspectratio]{${1:FILENAME}}
   \caption{${2:CAPTION} \label{fig:$1}}
-\end{figure}
+}
 $0

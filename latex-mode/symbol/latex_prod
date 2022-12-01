@@ -4,4 +4,4 @@
 # key: prod
 # condition: (and (texmathp) 'auto)
 # --
-\\prod_{${1:k=1}}^{${n}} $0
+\\prod_{${1:k=1}}^{${2:n}} $0

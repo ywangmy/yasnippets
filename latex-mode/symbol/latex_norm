@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX superscript
+# name: LaTeX norm
 # type: snippet
-# key: sp
+# key: norm
 # condition: (and (texmathp) 'auto)
 # --
-^{$0}
+\\| $0 \\|

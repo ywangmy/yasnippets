@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX sup
+# name: LaTeX Rational
 # type: snippet
-# key: inf
+# key: QQ
 # condition: (and (texmathp) 'auto)
 # --
-\\sup$0
+\\mathbb{Q} $0

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX superscript
+# name: LaTeX floor
 # type: snippet
-# key: sp
+# key: floor
 # condition: (and (texmathp) 'auto)
 # --
-^{$0}
+\\lfloor $0 \\rfloor

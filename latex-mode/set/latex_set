@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX Square root
+# name: LaTeX set
 # type: snippet
-# key: sq
+# key: set
 # condition: (and (texmathp) 'auto)
 # --
-\\sqrt{$0}
+\\{ $0 \\}

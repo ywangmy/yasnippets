@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX superscript
+# name: LaTeX ceil
 # type: snippet
-# key: sp
+# key: ceil
 # condition: (and (texmathp) 'auto)
 # --
-^{$0}
+\\lceil $0 \\rceil

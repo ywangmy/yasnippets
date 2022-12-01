@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX inf
+# name: LaTeX odot
 # type: snippet
-# key: inf
+# key: o.
 # condition: (and (texmathp) 'auto)
 # --
-\\inf$0
+\\odot $0

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX superscript
+# name: LaTeX lr[]
 # type: snippet
-# key: sp
+# key: lr[
 # condition: (and (texmathp) 'auto)
 # --
-^{$0}
+\\left[ $0 \\right]
