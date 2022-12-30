@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: LaTeX typewriter
+# type: command
+# binding: s-y
+# --
+(my-selected-text)
+(yas-expand-snippet
+  (if (region-active-p)
+    (if (texmathp)
+      "\\mathtt{`yas-selected-text`}$0"
+     "\\texttt{`yas-selected-text`}$0"
+    )
+   (if (texmathp)
+      "\\mathtt{$0}"
+     "\\texttt{$0}"
+    )
+  )
+)

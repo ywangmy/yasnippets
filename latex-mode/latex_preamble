@@ -4,26 +4,44 @@
 # key: preamble
 # --
 \documentclass{article}
-%% FONT %%
+
+%%% FONT %%%
 \usepackage[mono=false]{libertine}
 \usepackage{courier}
 \usepackage[T1]{fontenc}
-%% LAYOUT %%
+% CJK Suppoer
+\usepackage{CJKutf8}
+\newcommand{\zh}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+
+%%% LAYOUT %%%
 \usepackage[a4paper, marginparwidth=4cm, left=6cm, right=2cm, top=2cm, bottom=2cm, includefoot, includehead]{geometry}
 \usepackage{marginnote}
 \reversemarginpar
 \usepackage{indentfirst}
 \setlength{\parskip}{0.4em}
 \usepackage{enumitem}
-\setlist{nosep} % no space in itemize
+% no space in itemize
+\setlist{nosep}
 \usepackage{multicol}
 \usepackage{multirow}
-%% MATH BASIC %%
+
+%%% APPEARANCE & GRAPH & COLOR %%%
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\graphicspath{ {./img/} }
+\newcommand{\colorboxd}[2]{\colorbox{#1}{$\displaystyle #2$}}
+
+%%% MATH %%%
+%% BASIC %%
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{amsthm} % after amsmath
 \usepackage{mathtools}
-\theoremstyle{plain}% default
+% THEOREM %
+\usepackage{amsthm} % after amsmath
+\theoremstyle{plain} % default
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[section]
 \newtheorem{proposition}{Proposition}[section]
@@ -37,25 +55,19 @@
 \newtheorem{derivation}{Derivation}[section]
 \usepackage{mdframed} % after amsthm
 \newmdenv[frametitle=Exercise]{exercise}
-%% MATH FONT %%
+%% FONT %%
 \usepackage[libertine]{newtxmath} % after amssymb, amsthm
-%% APPEARANCE %%
-\usepackage{float}
-\usepackage{hyperref}
-\usepackage[dvipsnames]{xcolor}
-%% MATH EXTRA %%
+%% EXTRA %%
 \usepackage{esvect}
 \usepackage{ulem}
-%
-\usepackage{siunitx}
-\usepackage{graphicx}
-\graphicspath{ {./img/} }
-%% FILE SPECIFIED%%
-%\usepackage{inconsolata}
-%\usepackage{courier
 
+%% FILE SPECIFIED%%
+% \usepackage{inconsolata}
+% \usepackage{courier}
+
+%%% CODE %%%
 \usepackage{listings}
-\lstset { %
+\lstset {
   language=[11]C++,
   basicstyle=\footnotesize\ttfamily,
   keywordstyle=\ttfamily\bfseries\color{NavyBlue}\underbar,
@@ -63,14 +75,11 @@
   frame=single,
   breaklines=true,
   linewidth=0.9\linewidth,
-  %backgroundcolor=\color{black!5}, % set backgroundcolor
+  % backgroundcolor=\color{black!5}, % set backgroundcolor
 }
-%
+%% PSEUDOCODE %%
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 \algnewcommand\algorithmicforeach{\textbf{for each}}
 \algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
-
-\newcommand{\colorboxd}[2]{\colorbox{#1}{$\displaystyle #2$}}
-%% END OF PREAMBLE%%
 $0

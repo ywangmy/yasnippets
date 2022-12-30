@@ -2,6 +2,6 @@
 # name: LaTeX log
 # type: snippet
 # key: log
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\log $0

@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: LaTeX italic
+# type: command
+# binding: s-i
+# --
+(my-selected-text)
+(yas-expand-snippet
+  (if (region-active-p)
+    (if (texmathp)
+      "\\mathit{`yas-selected-text`}$0"
+     "\\textit{`yas-selected-text`}$0"
+    )
+   (if (texmathp)
+      "\\mathit{$0}"
+     "\\textit{$0}"
+    )
+  )
+)

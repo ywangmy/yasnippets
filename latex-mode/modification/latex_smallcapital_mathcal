@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: LaTeX smallcaptical/mathcal
+# type: command
+# binding: s-c
+# expand-env: ((yas-wrap-around-region nil))
+# --
+(my-selected-text)
+(yas-expand-snippet
+  (if (region-active-p)
+    (if (texmathp)
+      "\\mathcal{`yas-selected-text`}$0"
+     "\\textsc{`yas-selected-text`}$0"
+    )
+   (if (texmathp)
+      "\\mathcal{$0}"
+     "\\textsc{$0}"
+    )
+  )
+)

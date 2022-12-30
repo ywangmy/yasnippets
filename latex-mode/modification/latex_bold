@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: LaTeX bold
+# type: command
+# binding: s-b
+# --
+(my-selected-text)
+(yas-expand-snippet
+  (if (region-active-p)
+    (if (texmathp)
+      "\\mathbf{`yas-selected-text`}$0"
+     "\\textbf{`yas-selected-text`}$0"
+    )
+   (if (texmathp)
+      "\\mathbf{$0}"
+     "\\textbf{$0}"
+    )
+  )
+)

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: LaTeX text
+# type: command
+# binding: s-t
+# --
+(when (texmathp)
+  (my-selected-text)
+  (yas-expand-snippet
+    (if (region-active-p)
+      "\\text{`yas-selected-text`}$0"
+     "\\text{$0}"
+    )
+  )
+)

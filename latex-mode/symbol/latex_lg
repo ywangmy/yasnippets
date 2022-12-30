@@ -2,6 +2,6 @@
 # name: LaTeX lg
 # type: snippet
 # key: lg
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\lg $0

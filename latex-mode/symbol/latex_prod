@@ -2,6 +2,6 @@
 # name: LaTeX prod
 # type: snippet
 # key: prod
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\prod_{${1:k=1}}^{${2:n}} $0

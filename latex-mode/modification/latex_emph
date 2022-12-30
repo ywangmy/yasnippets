@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: LaTeX emph
+# type: command
+# binding: s-e
+# --
+(my-selected-text)
+(yas-expand-snippet
+  (if (region-active-p)
+    (if (texmathp)
+      "\\mathem{`yas-selected-text`}$0"
+     "\\emph{`yas-selected-text`}$0"
+    )
+   (if (texmathp)
+      "\\mathem{$0}"
+     "\\emph{$0}"
+    )
+  )
+)

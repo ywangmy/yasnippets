@@ -2,6 +2,6 @@
 # name: LaTeX ln
 # type: snippet
 # key: ln
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\ln $0

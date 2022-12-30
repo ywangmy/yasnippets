@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: LaTeX underline/unit
+# type: command
+# binding: s-u
+# --
+(my-selected-text)
+(yas-expand-snippet
+  (if (region-active-p)
+    (if (texmathp)
+      "\\unit{`yas-selected-text`}$0"
+     "\\underline{`yas-selected-text`}$0"
+    )
+   (if (texmathp)
+      "\\unit{$0}"
+     "\\underline{$0}"
+    )
+  )
+)
