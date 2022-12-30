@@ -29,33 +29,43 @@ href="https://github.com/tecosaur/LaTeX-auto-activating-snippets">laas</a>.</p>
 </figure></li>
 <li><p>Modifiers</p>
 <ul>
-<li>automatically select the word under the cursor (or adjacent to it)
-if no region is activated</li>
-<li>wrap the region with macros specified according to text or math
-environment</li>
-<li>E.g., <img src="./demo/textbf.gif" alt="textbf" /> <img
-src="./demo/mathbf.gif" alt="mathbf" /></li>
-</ul>
-<pre><code># -*- mode: snippet -*-
+<li><p>automatically select the word under the cursor (or adjacent to
+it) if no region is activated</p></li>
+<li><p>wrap the region with macros specified according to text or math
+environment</p></li>
+<li><p>E.g.,</p>
+<figure>
+<img src="./demo/textbf.gif" alt="textbf" />
+<figcaption aria-hidden="true">textbf</figcaption>
+</figure>
+<figure>
+<img src="./demo/mathbf.gif" alt="mathbf" />
+<figcaption aria-hidden="true">mathbf</figcaption>
+</figure>
+<pre class="yasnippet"><code># -*- mode: snippet -*-
 # name: LaTeX bold
 # type: command
 # binding: s-b
 # --
 (my-selected-text)
 (yas-expand-snippet
-  (if (region-active-p)
+    (if (region-active-p)
+        (if (texmathp)
+            &quot;\\mathbf{`yas-selected-text`}$0&quot;
+        &quot;\\textbf{`yas-selected-text`}$0&quot;
+        )
     (if (texmathp)
-      &quot;\\mathbf{`yas-selected-text`}$0&quot;
-     &quot;\\textbf{`yas-selected-text`}$0&quot;
-    )
-   (if (texmathp)
-     &quot;\\mathbf{$0}&quot;
+        &quot;\\mathbf{$0}&quot;
     &quot;\\textbf{$0}&quot;
-   )
-  )
+    )
+    )
 )</code></pre></li>
-<li><p>Other snippets: E.g., <img src="./demo/snippets.gif"
-alt="snippets" /></p></li>
+</ul></li>
+<li><p>Other snippets: E.g.,</p>
+<figure>
+<img src="./demo/snippets.gif" alt="snippets" />
+<figcaption aria-hidden="true">snippets</figcaption>
+</figure></li>
 </ul>
 <p>Configurations:</p>
 <ul>

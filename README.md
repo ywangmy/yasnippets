@@ -12,29 +12,33 @@ For LaTeX:
   region is activated
   - wrap the region with macros specified according to text or math environment
   - E.g., 
-  ![textbf](./demo/textbf.gif)
-  ![mathbf](./demo/mathbf.gif)
-  ```
-  # -*- mode: snippet -*-
-  # name: LaTeX bold
-  # type: command
-  # binding: s-b
-  # --
-  (my-selected-text)
-  (yas-expand-snippet
-    (if (region-active-p)
-      (if (texmathp)
-        "\\mathbf{`yas-selected-text`}$0"
-       "\\textbf{`yas-selected-text`}$0"
-      )
-     (if (texmathp)
-       "\\mathbf{$0}"
-      "\\textbf{$0}"
-     )
+
+    ![textbf](./demo/textbf.gif)
+
+    ![mathbf](./demo/mathbf.gif)
+    ```yasnippet
+    # -*- mode: snippet -*-
+    # name: LaTeX bold
+    # type: command
+    # binding: s-b
+    # --
+    (my-selected-text)
+    (yas-expand-snippet
+        (if (region-active-p)
+            (if (texmathp)
+                "\\mathbf{`yas-selected-text`}$0"
+            "\\textbf{`yas-selected-text`}$0"
+            )
+        (if (texmathp)
+            "\\mathbf{$0}"
+        "\\textbf{$0}"
+        )
+        )
     )
-  )
-```
-- Other snippets: E.g., ![snippets](./demo/snippets.gif)
+    ```
+- Other snippets: E.g., 
+
+    ![snippets](./demo/snippets.gif)
 
 Configurations:
 
