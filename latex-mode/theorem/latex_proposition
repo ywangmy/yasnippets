@@ -3,6 +3,6 @@
 # type: snippet
 # key: prop
 # --
-\begin{proposition}
+\begin{prop}
   $0
-\end{proposition}
+\end{prop}

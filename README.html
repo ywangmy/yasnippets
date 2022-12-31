@@ -47,19 +47,24 @@ environment</p></li>
 # type: command
 # binding: s-b
 # --
-(my-selected-text)
+(yasp-selected-current)
 (yas-expand-snippet
-    (if (region-active-p)
-        (if (texmathp)
-            &quot;\\mathbf{`yas-selected-text`}$0&quot;
+(if (region-active-p)
+    (if (texmathp)
+        &quot;\\mathbf{`yas-selected-text`}$0&quot;
         &quot;\\textbf{`yas-selected-text`}$0&quot;
-        )
+    )
     (if (texmathp)
         &quot;\\mathbf{$0}&quot;
-    &quot;\\textbf{$0}&quot;
+        &quot;\\textbf{$0}&quot;
     )
-    )
+)
 )</code></pre></li>
+<li><p>My implementation of fraction:</p>
+<figure>
+<img src="./demo/frac.gif" alt="frac" />
+<figcaption aria-hidden="true">frac</figcaption>
+</figure></li>
 </ul></li>
 <li><p>Other snippets: E.g.,</p>
 <figure>
@@ -69,38 +74,29 @@ environment</p></li>
 </ul>
 <p>Configurations:</p>
 <ul>
+<li>Install <a
+href="https://github.com/ywangmy/yasupp.el">https://github.com/ywangmy/yasupp.el</a></li>
 <li>Yasnippet</li>
 </ul>
-<pre class="emacs-lisp"><code>(defun my-selected-text ()
-  &quot;mark word at point&quot;
-  (when (not (region-active-p))
-    (let* ((start (point)) (end (point))
-           (syntaxes &quot;w_&quot;) ;; &quot;w&quot; for real word
-           )
-      (skip-syntax-backward syntaxes)
-      (setq start (point))
-      (skip-syntax-forward syntaxes)
-      (setq end (point))
-      (unless (= start end)
-        (goto-char start)
-        (set-mark-command ())
-        (goto-char end)
-        )))
-  nil
+<pre class="emacs-lisp"><code>;; YASnippet
+
+(use-package yasupp
+  :hook
+  (yas-minor-mode . yasp-minor-mode)
   )
 
 (use-package yasnippet
   :ensure t
   :init
   (yas-global-mode 1)
-  :hook
-  (yasnippet-mode . #&#39;my-selected-text)
   :custom
   (yas-snippet-dirs &#39;(&quot;~/.emacs.d/yasnippets&quot;))
   (yas-prompt-functions &#39;(yas-dropdown-prompt))
   (yas-wrap-around-region nil)
   (yas-triggers-in-field t)
-  )</code></pre>
+  )
+
+(provide &#39;init-yasnippet)</code></pre>
 <ul>
 <li>LaTeX, cdlatex</li>
 </ul>

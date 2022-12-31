@@ -2,9 +2,8 @@
 # name: LaTeX smallcaptical/mathcal
 # type: command
 # binding: s-c
-# expand-env: ((yas-wrap-around-region nil))
 # --
-(my-selected-text)
+(yasp-selected-current)
 (yas-expand-snippet
   (if (region-active-p)
     (if (texmathp)

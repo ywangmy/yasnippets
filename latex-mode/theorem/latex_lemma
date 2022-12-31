@@ -3,6 +3,6 @@
 # type: snippet
 # key: lemma
 # --
-\begin{lemma}
+\begin{lem}
   $0
-\end{lemma}
+\end{lem}

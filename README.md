@@ -16,66 +16,64 @@ For LaTeX:
     ![textbf](./demo/textbf.gif)
 
     ![mathbf](./demo/mathbf.gif)
+
     ```yasnippet
     # -*- mode: snippet -*-
     # name: LaTeX bold
     # type: command
     # binding: s-b
     # --
-    (my-selected-text)
+    (yasp-selected-current)
     (yas-expand-snippet
-        (if (region-active-p)
-            (if (texmathp)
-                "\\mathbf{`yas-selected-text`}$0"
+    (if (region-active-p)
+        (if (texmathp)
+            "\\mathbf{`yas-selected-text`}$0"
             "\\textbf{`yas-selected-text`}$0"
-            )
+        )
         (if (texmathp)
             "\\mathbf{$0}"
-        "\\textbf{$0}"
-        )
+            "\\textbf{$0}"
         )
     )
+    )
     ```
+  - My implementation of fraction:
+    
+    ![frac](./demo/frac.gif)
 - Other snippets: E.g., 
 
     ![snippets](./demo/snippets.gif)
 
 Configurations:
 
+- Install
+  [https://github.com/ywangmy/yasupp.el](https://github.com/ywangmy/yasupp.el)
 - Yasnippet
+
 ```emacs-lisp
-(defun my-selected-text ()
-  "mark word at point"
-  (when (not (region-active-p))
-    (let* ((start (point)) (end (point))
-           (syntaxes "w_") ;; "w" for real word
-           )
-      (skip-syntax-backward syntaxes)
-      (setq start (point))
-      (skip-syntax-forward syntaxes)
-      (setq end (point))
-      (unless (= start end)
-        (goto-char start)
-        (set-mark-command ())
-        (goto-char end)
-        )))
-  nil
+;; YASnippet
+
+(use-package yasupp
+  :hook
+  (yas-minor-mode . yasp-minor-mode)
   )
 
 (use-package yasnippet
   :ensure t
   :init
   (yas-global-mode 1)
-  :hook
-  (yasnippet-mode . #'my-selected-text)
   :custom
   (yas-snippet-dirs '("~/.emacs.d/yasnippets"))
   (yas-prompt-functions '(yas-dropdown-prompt))
   (yas-wrap-around-region nil)
   (yas-triggers-in-field t)
   )
+
+(provide 'init-yasnippet)
 ```
+
 - LaTeX, cdlatex
+
 ```emacs-lisp
 (use-package reftex
   :ensure t
@@ -170,7 +168,9 @@ Configurations:
   (TeX-newline-function 'reindent-then-newline-and-indent)
   )
 ```
+
 - aas, laas
+
 ```emacs-lisp
 ;; aas and laas
 (use-package laas

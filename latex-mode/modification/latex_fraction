@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: LaTeX fraction
+# type: command
+# binding: /
+# condition: (texmathp)
+# --
+(yasp-selected-left)
+(if (region-active-p)
+  (yas-expand-snippet "\\frac{`yas-selected-text`}{$1}$0")
+  (yas-expand-snippet "/$0")
+  )

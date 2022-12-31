@@ -14,9 +14,14 @@
 \newcommand{\zh}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
 
 %%% LAYOUT %%%
-\usepackage[a4paper, marginparwidth=4cm, left=6cm, right=2cm, top=2cm, bottom=2cm, includefoot, includehead]{geometry}
+\usepackage[a4paper
+, top=2cm, bottom=2cm
+, outer=6cm, inner=2cm
+, marginparwidth=4cm
+, includefoot, includehead
+]{geometry}
 \usepackage{marginnote}
-\reversemarginpar
+%\reversemarginpar
 \usepackage{indentfirst}
 \setlength{\parskip}{0.4em}
 \usepackage{enumitem}
@@ -41,16 +46,31 @@
 \usepackage{mathtools}
 % THEOREM %
 \usepackage{amsthm} % after amsmath
-\theoremstyle{plain} % default
-\newtheorem{theorem}{Theorem}[section]
-\newtheorem{corollary}{Corollary}[section]
-\newtheorem{proposition}{Proposition}[section]
-\newtheorem{lemma}{Lemma}[section]
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}[section]
-\newtheorem*{definition*}{Definition}
+\newtheoremstyle{bfdef}% name
+  {}{}% Space above (default), Space below (default)
+  {}{} % Body font, Indent amount
+  {\bfseries}% Theorem head font
+  {.}% Punctuation after theorem head
+  {.5em}% Space after theorem head
+  {\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}% Theorem head spec (can be left
+% empty, meaning ‘normal’)
+\newtheoremstyle{bfthm}% name
+  {}{}% Space above (default), Space below (default)
+  {\itshape}{} % Body font, Indent amount
+  {\bfseries}{.}% Theorem head font, Punctuation after theorem head
+  {.5em}% Space after theorem head
+  {\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}% Theorem head spec (can be left empty, meaning ‘normal’)
+\theoremstyle{bfdef} %def
+\newtheorem{defn}{Definition}[section]
+\newtheorem*{defn*}{Definition}
 \newtheorem{method}{Method}[section]
 \newtheorem{example}{Example}[section]
+\theoremstyle{bfthm} % thm
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}{Lemma}[section]
+\newtheorem{prop}{Proposition}[section]
+\newtheorem{cor}{Corollary}[section]
+\newtheorem{cla}{Claim}[section]
 \theoremstyle{remark}
 \newtheorem{derivation}{Derivation}[section]
 \usepackage{mdframed} % after amsthm

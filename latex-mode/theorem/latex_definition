@@ -3,6 +3,6 @@
 # type: snippet
 # key: def
 # --
-\begin{definition}[$1]
+\begin{defn}[$1]
   $0
-\end{definition}
+\end{defn}

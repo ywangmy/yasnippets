@@ -3,6 +3,6 @@
 # type: snippet
 # key: cor
 # --
-\begin{corollary}
+\begin{cor}
   $0
-\end{corollary}
+\end{cor}

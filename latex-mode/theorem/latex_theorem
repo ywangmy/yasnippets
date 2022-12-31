@@ -3,6 +3,6 @@
 # type: snippet
 # key: thm
 # --
-\begin{theorem}
+\begin{thm}
   $0
-\end{theorem}
+\end{thm}

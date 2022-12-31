@@ -3,7 +3,7 @@
 # type: command
 # binding: s-b
 # --
-(my-selected-text)
+(yasp-selected-current)
 (yas-expand-snippet
   (if (region-active-p)
     (if (texmathp)
