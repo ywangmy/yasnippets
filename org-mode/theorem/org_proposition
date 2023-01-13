@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: ywangmy
-# name: Org Proposition
-# type: snippet
-# key: prop
-# --
-#+begin_proposition
-$0
-#+end_proposition

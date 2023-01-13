@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: ywangmy
-# name: Org begin-end
-# type: snippet
-# key: be
-# --
-#+BEGIN_$1
-$0
-#+END_$1

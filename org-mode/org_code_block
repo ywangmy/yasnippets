@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: ywangmy
-# name: Org Code Block
-# type: snippet
-# key: cb
-# --
-#+BEGIN_SRC ${1:language}
-$0
-#+END_SRC

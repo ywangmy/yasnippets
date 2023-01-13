@@ -79,7 +79,6 @@
 \usepackage[libertine]{newtxmath} % after amssymb, amsthm
 %% EXTRA %%
 \usepackage{esvect}
-\usepackage{ulem}
 
 %% FILE SPECIFIED%%
 % \usepackage{inconsolata}

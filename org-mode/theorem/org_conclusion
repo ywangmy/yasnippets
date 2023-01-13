@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: ywangmy
-# name: Org Conclusion
-# type: snippet
-# key: ccl
-# --
-#+begin_conclusion
-$0
-#+end_conclusion

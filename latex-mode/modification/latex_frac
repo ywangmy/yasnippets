@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX fraction
+# type: snippet
+# key: //
+# condition: (texmathp)
+# --
+\\frac{$1}{$2}$0

@@ -30,18 +30,22 @@ inline T in()
     return x * flag;
 }
 
-// const int MAXN = , MAXM = ;
-// const LL MOD = 1e9 + 7, INV2 = 500000004;
+// const int MAXN = ;
+// const int MAXM = ;
+// const LL MOD = 1e9 + 7;
+// const LL INV2 = 500000004;
 
 /* Global Var */
 
-// int n, m;
+// int n;
+// int m;
 
 /* Algorithm Body */
 
 
 int main()
 {
+    // int t = in<int>();
     $0
     return 0;
 }

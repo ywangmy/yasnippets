@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: ywangmy
-# name: Org style
-# type: snippet
-# key: sty
-# --
-#+HTML_HEAD: ${1:<link rel="stylesheet" type="text/css" href="https://npencil.github.io/css/sty.css" />} $0

@@ -1,18 +1,18 @@
 # -*- mode: snippet -*-
-# name: LaTeX text/math
+# name: Org bold
 # type: command
-# binding: s-t
+# binding: s-b
 # --
 (yasp-selected-current)
 (yas-expand-snippet
   (if (region-active-p)
     (if (texmathp)
-      "\\text{`yas-selected-text`}$0"
-     "\\\\(`yas-selected-text`\\\\)$0"
+      "\\mathbf{`yas-selected-text`}$0"
+     "**`yas-selected-text`**$0"
     )
    (if (texmathp)
-      "\\text{$0}"
-     "\\\\($0\\\\)"
+      "\\mathbf{$0}"
+     "**$0**"
     )
   )
 )
