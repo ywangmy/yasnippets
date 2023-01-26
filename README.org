@@ -1,0 +1,75 @@
+For LaTeX:
+
+- Greek letters: using [[https://github.com/cdominik/cdlatex][cdlatex]]
+
+  #+caption: cdlatex
+  [[./demo/cdlatex.gif]]
+
+- Intelligent fraction and subscripts: using
+  [[https://github.com/ymarco/auto-activating-snippets][aas]] and
+  [[https://github.com/tecosaur/LaTeX-auto-activating-snippets][laas]].
+
+  #+caption: aas
+  [[./demo/aas.gif]]
+
+- Modifiers
+
+  - automatically select the word under the cursor (or adjacent to it)
+    if no region is activated
+
+  - wrap the region with macros specified according to text or math
+    environment
+
+  - E.g.,
+
+    #+caption: textbf
+    [[./demo/textbf.gif]]
+
+    #+caption: mathbf
+    [[./demo/mathbf.gif]]
+
+    #+begin_example
+    # -*- mode: snippet -*-
+    # name: LaTeX bold
+    # type: command
+    # binding: s-b
+    # --
+    (yasp-selected-current)
+    (yas-expand-snippet
+    (if (region-active-p)
+        (if (texmathp)
+            "\\mathbf{`yas-selected-text`}$0"
+            "\\textbf{`yas-selected-text`}$0"
+        )
+        (if (texmathp)
+            "\\mathbf{$0}"
+            "\\textbf{$0}"
+        )
+    )
+    )
+    #+end_example
+
+  - My implementation of fraction:
+
+    #+caption: frac
+    [[./demo/frac.gif]]
+
+- Other snippets: E.g.,
+
+  #+caption: snippets
+  [[./demo/snippets.gif]]
+
+Configurations:
+
+- Install [[https://github.com/ywangmy/yasupp.el]]
+- Yasnippet
+
+#+INCLUDE: "~/.emacs.d/lisp/init-yasnippet.el" src emacs-lisp
+
+- LaTeX, cdlatex
+
+#+INCLUDE: "~/.emacs.d/lisp/init-latex.el" src emacs-lisp
+
+- aas, laas
+
+#+INCLUDE: "~/.emacs.d/lisp/init-aas.el" src emacs-lisp
