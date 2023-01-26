@@ -2,6 +2,6 @@
 # name: LaTeX lim
 # type: snippet
 # key: lim
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\lim_{${1:n} \\to ${2:\\infty}} $0

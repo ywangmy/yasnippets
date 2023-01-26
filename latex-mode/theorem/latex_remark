@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Latex Remark
+# type: snippet
+# key: remark
+# --
+\begin{rem}
+  $0
+\end{rem}

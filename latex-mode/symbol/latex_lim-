@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX lim-
+# type: snippet
+# key: lim-
+# condition: (texmathp)
+# --
+\\lim_{${1:x} \\uparrow ${2:\\infty}} $0
