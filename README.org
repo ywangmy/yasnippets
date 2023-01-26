@@ -62,14 +62,6 @@ For LaTeX:
 Configurations:
 
 - Install [[https://github.com/ywangmy/yasupp.el]]
-- Yasnippet
-
-#+INCLUDE: "~/.emacs.d/lisp/init-yasnippet.el" src emacs-lisp
-
-- LaTeX, cdlatex
-
-#+INCLUDE: "~/.emacs.d/lisp/init-latex.el" src emacs-lisp
-
-- aas, laas
-
-#+INCLUDE: "~/.emacs.d/lisp/init-aas.el" src emacs-lisp
+- [[https://github.com/ywangmy/.emacs.d/blob/master/lisp/init-yasnippet.el][Yasnippet]]
+- [[https://github.com/ywangmy/.emacs.d/blob/master/lisp/init-latex.el][LaTeX, cdlatex]]
+- [[https://github.com/ywangmy/.emacs.d/blob/master/lisp/init-aas.el][aas, laas]]
