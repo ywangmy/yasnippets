@@ -2,6 +2,6 @@
 # name: LaTex csc
 # type: snippet
 # key: csc
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\csc $0

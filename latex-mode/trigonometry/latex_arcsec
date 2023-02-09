@@ -2,6 +2,6 @@
 # name: LaTex arcsec
 # type: snippet
 # key: arcsec
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\arcsec $0

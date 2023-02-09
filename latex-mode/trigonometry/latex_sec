@@ -2,6 +2,6 @@
 # name: LaTex sec
 # type: snippet
 # key: sec
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\sec $0

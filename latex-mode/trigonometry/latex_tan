@@ -2,6 +2,6 @@
 # name: LaTex tan
 # type: snippet
 # key: tan
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\tan $0

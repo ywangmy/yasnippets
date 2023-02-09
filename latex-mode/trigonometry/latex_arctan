@@ -2,6 +2,6 @@
 # name: LaTex arctan
 # type: snippet
 # key: arctan
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\arctan $0

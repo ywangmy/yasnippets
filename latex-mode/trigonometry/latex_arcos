@@ -2,6 +2,6 @@
 # name: LaTex arccos
 # type: snippet
 # key: arccos
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\arccos $0

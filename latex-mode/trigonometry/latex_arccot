@@ -2,6 +2,6 @@
 # name: LaTex arccot
 # type: snippet
 # key: arccot
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\arccot $0

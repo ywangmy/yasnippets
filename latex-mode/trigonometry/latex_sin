@@ -2,6 +2,6 @@
 # name: LaTex sin
 # type: snippet
 # key: sin
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\sin $0

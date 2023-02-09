@@ -2,6 +2,6 @@
 # name: LaTex arccsc
 # type: snippet
 # key: arccsc
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\arccsc $0

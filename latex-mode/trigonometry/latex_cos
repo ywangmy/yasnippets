@@ -2,6 +2,6 @@
 # name: LaTex cos
 # type: snippet
 # key: cos
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\cos $0

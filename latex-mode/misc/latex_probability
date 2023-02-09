@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LaTeX Probability
+# type: snippet
+# key: PP
+# condition: (and (texmathp) 'auto)
+# --
+\\mathbb{P} $0

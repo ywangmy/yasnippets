@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: LaTex emphasize
-# type: snippet
-# key: emp
-# --
-\emph{$0}
