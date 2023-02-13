@@ -2,6 +2,6 @@
 # name: LaTeX set
 # type: snippet
 # key: set
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\{ $0 \\}

@@ -75,7 +75,7 @@
 \newtheorem*{rem}{Remark}
 \newtheorem{derivation}{Derivation}[section]
 \usepackage{mdframed} % after amsthm
-\newmdenv[frametitle=Exercise]{exercise}
+\newmdtheoremenv{ex}{Exercise}
 %% FONT %%
 \usepackage[libertine]{newtxmath} % after amssymb, amsthm
 %% EXTRA %%

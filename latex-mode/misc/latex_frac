@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX setminus
+# name: LaTeX frac
 # type: snippet
-# key: s\\
+# key: //
 # condition: (texmathp)
 # --
-\\setminus $0
+\\frac{$1}{$2}$0
