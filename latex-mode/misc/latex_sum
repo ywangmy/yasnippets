@@ -4,4 +4,4 @@
 # key: sum
 # condition: (texmathp)
 # --
-\\sum_{${1:k=1}}^{${2:n}} $0
+\\sum_{${1:i=1}}^{${2:n}} $0

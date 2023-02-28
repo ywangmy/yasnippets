@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTex preamble
+# name: LaTex homework preamble
 # type: snippet
-# key: preamble
+# key: homework
 # --
 \documentclass{article}
 
@@ -15,18 +15,15 @@
 
 %%% LAYOUT %%%
 \usepackage[a4paper
-, top=2cm, bottom=2cm
-, outer=6cm, inner=2cm
-, marginparwidth=4cm
+, margin=2cm
 , includefoot, includehead
 ]{geometry}
-\usepackage{marginnote}
-%\reversemarginpar
+
 \usepackage{indentfirst}
 \setlength{\parskip}{0.4em}
 \usepackage{enumitem}
 % no space in itemize
-\setlist{nosep}
+%\setlist{nosep}
 \usepackage{multicol}
 \usepackage{multirow}
 
@@ -47,19 +44,19 @@
 % THEOREM %
 \usepackage{amsthm} % after amsmath
 \newtheoremstyle{bfdef}% name
-  {}{}% Space above (default), Space below (default)
-  {}{} % Body font, Indent amount
-  {\bfseries}% Theorem head font
-  {.}% Punctuation after theorem head
-  {.5em}% Space after theorem head
-  {\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}% Theorem head spec (can be left
+{}{}% Space above (default), Space below (default)
+{}{} % Body font, Indent amount
+{\bfseries}% Theorem head font
+{.}% Punctuation after theorem head
+{.5em}% Space after theorem head
+{\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}% Theorem head spec (can be left
 % empty, meaning ‘normal’)
 \newtheoremstyle{bfthm}% name
-  {}{}% Space above (default), Space below (default)
-  {\itshape}{} % Body font, Indent amount
-  {\bfseries}{.}% Theorem head font, Punctuation after theorem head
-  {.5em}% Space after theorem head
-  {\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}% Theorem head spec (can be left empty, meaning ‘normal’)
+{}{}% Space above (default), Space below (default)
+{\itshape}{} % Body font, Indent amount
+{\bfseries}{.}% Theorem head font, Punctuation after theorem head
+{.5em}% Space after theorem head
+{\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}% Theorem head spec (can be left empty, meaning ‘normal’)
 \theoremstyle{bfdef} %def
 \newtheorem{defn}{Definition}[section]
 \newtheorem*{defn*}{Definition}
@@ -103,4 +100,9 @@
 \usepackage[noend]{algpseudocode}
 \algnewcommand\algorithmicforeach{\textbf{for each}}
 \algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
 $0
