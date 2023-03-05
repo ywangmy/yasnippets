@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: LaTeX bar
+# type: command
+# condition: (texmathp)
+# binding: s--
+# --
+(yasp-selected-current)
+(yas-expand-snippet
+  (if (region-active-p)
+     "\\bar{`yas-selected-text`}$0"
+     "\\bar{$0}"
+    )
+  )
+)

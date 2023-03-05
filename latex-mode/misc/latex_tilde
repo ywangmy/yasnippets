@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: LaTeX tilde
+# type: command
+# condition: (texmathp)
+# binding: s-~
+# --
+(yasp-selected-current)
+(yas-expand-snippet
+  (if (region-active-p)
+     "\\tilde{`yas-selected-text`}$0"
+     "\\tilde{$0}"
+    )
+  )
+)

@@ -3,6 +3,6 @@
 # type: snippet
 # key: ex
 # --
-\begin{exercise}
+\begin{ex}
 $0
-\end{exercise}
+\end{ex}

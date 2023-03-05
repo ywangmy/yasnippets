@@ -4,4 +4,4 @@
 # key: PP
 # condition: (and (texmathp) 'auto)
 # --
-\\mathbb{P} $0
+\\prob $0

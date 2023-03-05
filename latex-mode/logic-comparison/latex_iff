@@ -2,6 +2,6 @@
 # name: LaTeX iff
 # type: snippet
 # key: iff
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\iff $0

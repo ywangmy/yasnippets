@@ -78,7 +78,9 @@
 \usepackage[libertine]{newtxmath} % after amssymb, amsthm
 %% EXTRA %%
 \usepackage{esvect}
-
+\usepackage{bm}
+\renewcommand{\vec}[1]{\bm{#1}}
+\newcommand{\mat}[1]{\bm{#1}}
 %% FILE SPECIFIED%%
 % \usepackage{inconsolata}
 % \usepackage{courier}
