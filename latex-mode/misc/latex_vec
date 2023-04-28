@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: LaTeX vector font
+# condition: (texmathp)
+# type: command
+# binding: s-v
+# --
+(yasp-selected-current)
+(yas-expand-snippet
+  (if (region-active-p)
+    "\\vec{`yas-selected-text`}$0"
+    "\\vec{$0}"
+    )
+  )
+)

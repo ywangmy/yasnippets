@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: LaTeX matrix font
+# condition: (texmathp)
+# type: command
+# binding: s-m
+# --
+(yasp-selected-current)
+(yas-expand-snippet
+  (if (region-active-p)
+    "\\mat{`yas-selected-text`}$0"
+    "\\mat{$0}"
+    )
+  )
+)

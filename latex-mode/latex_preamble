@@ -65,6 +65,7 @@
 \newtheorem*{defn*}{Definition}
 \newtheorem{method}{Method}[section]
 \newtheorem{example}{Example}[section]
+\newtheorem{fact}{Fact}[section]
 \newtheorem{pf}{Proof}[section]
 \theoremstyle{bfthm} % thm
 \newtheorem{thm}{Theorem}[section]
@@ -84,20 +85,30 @@
 \usepackage{bm}
 \renewcommand{\vec}[1]{\bm{#1}}
 \newcommand{\mat}[1]{\bm{#1}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\prob}{\mathbb{P}}
+\DeclareMathOperator{\Var}{\mathbb{V}}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\Cor}{Cor}
 %% FILE SPECIFIED%%
 % \usepackage{inconsolata}
 % \usepackage{courier}
 
 %%% CODE %%%
+\usepackage{fancyvrb}
+\RecustomVerbatimEnvironment
+  {Verbatim}{Verbatim}
+  {fontsize=\footnotesize,frame=single}
 \usepackage{listings}
 \lstset {
   language=[11]C++,
   basicstyle=\footnotesize\ttfamily,
-  keywordstyle=\ttfamily\bfseries\color{NavyBlue}\underbar,
+  keywordstyle=\bfseries\color{NavyBlue}\underbar,
   commentstyle=\itshape\color{Green},
   frame=single,
   breaklines=true,
   linewidth=0.9\linewidth,
+  escapechar=\%, % escape characters between two '%'
   % backgroundcolor=\color{black!5}, % set backgroundcolor
 }
 %% PSEUDOCODE %%

@@ -2,6 +2,6 @@
 # name: LaTeX iint
 # type: snippet
 # key: iint
-# condition: (and (texmathp) 'auto)
+# condition: (texmathp)
 # --
 \\iint_{${1:R}} $0

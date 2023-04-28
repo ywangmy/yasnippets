@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: LaTeX imgi
+# type: snippet
+# key: imgi
+# --
+\includegraphics[draft=false, scale=0.2, keepaspectratio]{$1}$0
