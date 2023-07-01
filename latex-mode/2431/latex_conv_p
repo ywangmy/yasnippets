@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX norm
+# name: LaTeX conv p
 # type: snippet
-# key: norm
+# key: convp
 # condition: (and (texmathp) 'auto)
 # --
-\\| $1 \\|$0
+X_{n} \\overset{\\prob}{\\to } X$0

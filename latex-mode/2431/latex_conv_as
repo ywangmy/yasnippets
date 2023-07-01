@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX norm
+# name: LaTeX conv as
 # type: snippet
-# key: norm
+# key: convas
 # condition: (and (texmathp) 'auto)
 # --
-\\| $1 \\|$0
+X_{n} \\overset{\\text{a.s.}}{\\to } X$0

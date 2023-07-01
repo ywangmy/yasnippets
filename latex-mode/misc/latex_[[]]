@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX norm
+# name: LaTeX lr [[]]
 # type: snippet
-# key: norm
+# key: lrb
 # condition: (and (texmathp) 'auto)
 # --
-\\| $1 \\|$0
+\\llbracket $0 \\rrbracket

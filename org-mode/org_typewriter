@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Org typewriter
+# type: command
+# binding: s-y
+# --
+(yasp-selected-current)
+(yas-expand-snippet
+  (if (region-active-p)
+     "~`yas-selected-text`~$0"
+     "~$0~"
+    )
+  )

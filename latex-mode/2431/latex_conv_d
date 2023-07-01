@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: LaTeX norm
+# name: LaTeX conv d
 # type: snippet
-# key: norm
+# key: convd
 # condition: (and (texmathp) 'auto)
 # --
-\\| $1 \\|$0
+X_{n} \\overset{D}{\\to } X$0
