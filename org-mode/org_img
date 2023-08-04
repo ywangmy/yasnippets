@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Org img
+# type: snippet
+# key: img
+# --
+#+ATTR_LATEX: :width ${1:300}pt
+#+ATTR_HTML: :width ${2:400}pt
+#+CAPTION: $3
+[[$4]]
+$0

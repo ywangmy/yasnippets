@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Org defn
+# type: snippet
+# key: defn
+# --
+#+ATTR_LATEX: :options [$1]
+#+BEGIN_defn
+$0
+#+END_defn

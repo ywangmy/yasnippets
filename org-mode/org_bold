@@ -8,11 +8,11 @@
   (if (region-active-p)
     (if (texmathp)
       "\\mathbf{`yas-selected-text`}$0"
-     "**`yas-selected-text`**$0"
+     "*`yas-selected-text`*$0"
     )
    (if (texmathp)
       "\\mathbf{$0}"
-     "**$0**"
+     "*$0*"
     )
   )
 )
