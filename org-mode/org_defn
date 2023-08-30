@@ -4,6 +4,7 @@
 # key: defn
 # --
 #+ATTR_LATEX: :options [$1]
+#+ATTR_HTML: :title [$1]
 #+BEGIN_defn
 $0
 #+END_defn

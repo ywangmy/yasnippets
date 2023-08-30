@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Org prop
+# type: snippet
+# key: prop
+# --
+#+ATTR_LATEX: :options [$1]
+#+BEGIN_prop
+$0
+#+END_prop
