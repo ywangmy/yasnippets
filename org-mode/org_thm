@@ -1,11 +1,11 @@
 # -*- mode: snippet -*-
-# name: Org defn
+# name: Org thm
 # type: snippet
-# key: defn
+# key: thm
 # --
 #+NAME: $2
 #+ATTR_LATEX: :options [$1]
 #+ATTR_HTML: :title $1
-#+BEGIN_defn
+#+BEGIN_thm
 $0
-#+END_defn
+#+END_thm

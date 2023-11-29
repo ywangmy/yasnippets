@@ -4,6 +4,7 @@
 # key: prop
 # --
 #+ATTR_LATEX: :options [$1]
+#+ATTR_HTML: :title $1
 #+BEGIN_prop
 $0
 #+END_prop

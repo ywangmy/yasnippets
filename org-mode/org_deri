@@ -1,11 +1,11 @@
 # -*- mode: snippet -*-
-# name: Org defn
+# name: Org deri
 # type: snippet
-# key: defn
+# key: deri
 # --
 #+NAME: $2
 #+ATTR_LATEX: :options [$1]
 #+ATTR_HTML: :title $1
-#+BEGIN_defn
+#+BEGIN_deri
 $0
-#+END_defn
+#+END_deri
